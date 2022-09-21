@@ -93,26 +93,33 @@ print(my_bool)
 # != different or not equal to
 
 # you can also construct booleans to see if values ar in a variable or not found
-# my_ bool = 5 in my_list
-# my_bool = 5 not in my_list
-
+#my_list= [1,2,3,4,5]
+#my_bool = 5 in my_list
+#my_bool = 5 not in my_list
+my_num= 54
+my_num2= 2223
+my_results = my_num2 == my_num
+print(my_results)
 # so we can see if we can make logical decisions if something is true or not
-# var1 = True
-# var2 = False
-# print(type(var1))
-# print(var1)
+#var1 = True
+#var2 = False
+#print(type(var1))
+#print(var1)
 
-# list = [1,2,3,4,5,6]
-# control = 5 in list
-# print(type(control))
-# print(control)
+list = [1,2,3,4,5,6]
+control = 5 in list
+print(type(control))
+print(control)
 
 # Booleans Practice
 
 # Make a comparison that returns a boolean and store the result (True/False) in a variable called test
 
 # Check if 17834/34 is greater than 87*56 and print the boolean result to the screen using print()
-
+my_num3= 17834/34
+my_num4= 87*56
+my_result= my_num3 > my_num4
+print(my_result)
 # Check if the square root of 25 is equal to 5 and display the result (boolean) on the screen using print
 
 
