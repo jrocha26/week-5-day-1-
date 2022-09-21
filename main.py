@@ -43,35 +43,47 @@ my_list=list(my_tuple)
 print(my_list)
 #Extract the elements of the following tuple into four variables: a, b, c, d
 
-my_tuple = (1, 2, 3, 4)
-my_tuple= a, b, c, d
-print(a, b, c, d)
+#my_tuple = (1, 2, 3, 4)
+#my_tuple= a, b, c, d
+#print(a, b, c, d)
 
 #################################################sets######################################################
 
-
+set1 = set((1,1,1,2,3,4))
+print(set1)
+set2= {1,2,3,4,4,4,4,4,4,5}
+print(set2)
+print(5 in set1)
 # Join the following sets into one, called my_set_3:
 
-{1, 2, "three", "four"}
+set0 = {1, 2, "three", "four"}
 
-{"three", 4, 5}
+set01 = {"three", 4, 5}
+set3 = set0.union(set01)
+print(set3)
 
 
 # Remove a random item from the following set, using set methods.
 
 raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
-
+raffle.remove("Monica")
+print(raffle)
 
 
 # Add the name Gunther to the following set, using set methods:
 
 raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
-
+raffle.add("Jody")
+print(raffle)
+raffle.add("America")
+print(raffle)
+raffle.add("Melanie")
+print(raffle)
 #################################################booleans######################################################
 # booleans
 # a boolean can only have 2 values -- true or False
-# my_bool = 5 > 4
-#print(my_bool)
+my_bool = 5 > 4
+print(my_bool)
 
 # > greater
 # < less
